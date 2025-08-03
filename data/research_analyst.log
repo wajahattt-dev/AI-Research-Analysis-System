@@ -1,0 +1,1330 @@
+2025-08-03 21:57:17,272 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 21:57:20,146 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 21:57:20,146 - main - INFO - Starting research on query: What are the latest developments in quantum computing?
+2025-08-03 21:57:20,146 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 21:57:20,146 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 21:57:20,146 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:57:31,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:57:31,719 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1520
+2025-08-03 21:57:31,719 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 21:57:31,719 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 21:57:31,719 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 21:57:31,719 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:57:43,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:57:43,660 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 1777
+2025-08-03 21:57:43,660 - agent.LiteratureAgent - INFO - Searching for: "quantum computing" recent breakthroughs 2023
+2025-08-03 21:57:43,660 - utils.scrapers - WARNING - Unknown source: Academic sources (ArXiv, Google Scholar)
+2025-08-03 21:57:43,660 - utils.scrapers - WARNING - Unknown source: News sources (recent developments)
+2025-08-03 21:57:43,660 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers
+2025-08-03 21:57:43,660 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:57:44,166 - agent.LiteratureAgent - INFO - Searching for: "quantum computing" applications in "healthcare" OR "finance" OR "cybersecurity"
+2025-08-03 21:57:44,166 - utils.scrapers - WARNING - Unknown source: Academic sources (ArXiv, Google Scholar)
+2025-08-03 21:57:44,166 - utils.scrapers - WARNING - Unknown source: News sources (recent developments)
+2025-08-03 21:57:44,166 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers
+2025-08-03 21:57:44,166 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:57:44,681 - agent.LiteratureAgent - INFO - Searching for: challenges limitations "quantum computing" 2023
+2025-08-03 21:57:44,681 - utils.scrapers - WARNING - Unknown source: Academic sources (ArXiv, Google Scholar)
+2025-08-03 21:57:44,681 - utils.scrapers - WARNING - Unknown source: News sources (recent developments)
+2025-08-03 21:57:44,681 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers
+2025-08-03 21:57:44,681 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:57:45,183 - agent.LiteratureAgent - INFO - Searching for: "quantum computing" startups major players 2023
+2025-08-03 21:57:45,183 - utils.scrapers - WARNING - Unknown source: Academic sources (ArXiv, Google Scholar)
+2025-08-03 21:57:45,183 - utils.scrapers - WARNING - Unknown source: News sources (recent developments)
+2025-08-03 21:57:45,183 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers
+2025-08-03 21:57:45,183 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:57:45,683 - agent.LiteratureAgent - INFO - Searching for: future prospects research directions "quantum computing" 2023
+2025-08-03 21:57:45,683 - utils.scrapers - WARNING - Unknown source: Academic sources (ArXiv, Google Scholar)
+2025-08-03 21:57:45,683 - utils.scrapers - WARNING - Unknown source: News sources (recent developments)
+2025-08-03 21:57:45,683 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers
+2025-08-03 21:57:45,683 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:57:46,194 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 21:57:46,194 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 21:57:46,194 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 21:57:46,194 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 21:57:46,194 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 21:57:46,194 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 21:57:46,194 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 21:57:48,868 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 21:57:48,868 - main - INFO - Starting research on query: Impact of artificial intelligence on healthcare delivery
+2025-08-03 21:57:48,868 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 21:57:48,868 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 21:57:48,868 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:57:56,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:57:56,836 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1472
+2025-08-03 21:57:56,836 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 21:57:56,836 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 21:57:56,836 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 21:57:56,836 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:58:09,875 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:58:10,180 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 2301
+2025-08-03 21:58:10,180 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare delivery" AND diagnostics AND "treatment planning" -date:2020-2023
+2025-08-03 21:58:10,180 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on AI's impact and applications in healthcare
+2025-08-03 21:58:10,180 - utils.scrapers - WARNING - Unknown source: News sources for recent developments, breakthroughs, and case studies in the use of AI in healthcare settings
+2025-08-03 21:58:10,180 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers from healthcare technology companies and research institutions for insights on trends, challenges, and forecasts
+2025-08-03 21:58:10,196 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:10,703 - agent.LiteratureAgent - INFO - Searching for: "AI" AND "healthcare accessibility" AND "patient outcomes" -date:2020-2023
+2025-08-03 21:58:10,703 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on AI's impact and applications in healthcare
+2025-08-03 21:58:10,703 - utils.scrapers - WARNING - Unknown source: News sources for recent developments, breakthroughs, and case studies in the use of AI in healthcare settings
+2025-08-03 21:58:10,703 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers from healthcare technology companies and research institutions for insights on trends, challenges, and forecasts
+2025-08-03 21:58:10,703 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:11,203 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND "ethical considerations" AND "patient privacy" -date:2020-2023
+2025-08-03 21:58:11,203 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on AI's impact and applications in healthcare
+2025-08-03 21:58:11,205 - utils.scrapers - WARNING - Unknown source: News sources for recent developments, breakthroughs, and case studies in the use of AI in healthcare settings
+2025-08-03 21:58:11,205 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers from healthcare technology companies and research institutions for insights on trends, challenges, and forecasts
+2025-08-03 21:58:11,205 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:11,705 - agent.LiteratureAgent - INFO - Searching for: "AI technologies" AND "healthcare systems" integration -date:2020-2023
+2025-08-03 21:58:11,705 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on AI's impact and applications in healthcare
+2025-08-03 21:58:11,705 - utils.scrapers - WARNING - Unknown source: News sources for recent developments, breakthroughs, and case studies in the use of AI in healthcare settings
+2025-08-03 21:58:11,705 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers from healthcare technology companies and research institutions for insights on trends, challenges, and forecasts
+2025-08-03 21:58:11,705 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:12,212 - agent.LiteratureAgent - INFO - Searching for: "future trends" AND "potential of AI" IN healthcare -date:2020-2023
+2025-08-03 21:58:12,212 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on AI's impact and applications in healthcare
+2025-08-03 21:58:12,212 - utils.scrapers - WARNING - Unknown source: News sources for recent developments, breakthroughs, and case studies in the use of AI in healthcare settings
+2025-08-03 21:58:12,212 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers from healthcare technology companies and research institutions for insights on trends, challenges, and forecasts
+2025-08-03 21:58:12,212 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:12,715 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 21:58:12,715 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 21:58:12,715 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 21:58:12,715 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 21:58:12,715 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 21:58:12,715 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 21:58:12,715 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 21:58:15,358 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 21:58:15,358 - main - INFO - Starting research on query: Latest developments in renewable energy technology
+2025-08-03 21:58:15,358 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 21:58:15,358 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 21:58:15,358 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:58:25,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:58:26,149 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1278
+2025-08-03 21:58:26,149 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 21:58:26,149 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 21:58:26,149 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 21:58:26,149 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:58:40,123 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:58:40,520 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 1810
+2025-08-03 21:58:40,520 - agent.LiteratureAgent - INFO - Searching for: latest developments in solar energy technology 2023
+2025-08-03 21:58:40,520 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:40,520 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:40,520 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:40,520 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:41,020 - agent.LiteratureAgent - INFO - Searching for: innovations in wind energy technology 2023
+2025-08-03 21:58:41,020 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:41,020 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:41,020 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:41,020 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:41,534 - agent.LiteratureAgent - INFO - Searching for: emerging trends in hydro and marine energy 2023
+2025-08-03 21:58:41,534 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:41,534 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:41,534 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:41,534 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:42,035 - agent.LiteratureAgent - INFO - Searching for: breakthroughs in energy storage solutions 2023
+2025-08-03 21:58:42,035 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:42,035 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:42,035 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:42,035 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:42,543 - agent.LiteratureAgent - INFO - Searching for: development in renewable energy integration and grid technology 2023
+2025-08-03 21:58:42,543 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:42,543 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:42,543 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:42,543 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:43,051 - agent.LiteratureAgent - INFO - Searching for: "renewable energy technology" advancements 2023
+2025-08-03 21:58:43,051 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:43,051 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:43,051 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:43,051 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:43,564 - agent.LiteratureAgent - INFO - Searching for: "energy storage solutions" breakthroughs 2023
+2025-08-03 21:58:43,564 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles and technical advancements
+2025-08-03 21:58:43,564 - utils.scrapers - WARNING - Unknown source: News sources for the latest developments and commercial applications
+2025-08-03 21:58:43,564 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for market analysis, future trends, and industry standards
+2025-08-03 21:58:43,564 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:58:44,067 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 21:58:44,067 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 21:58:44,067 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 21:58:44,067 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 21:58:44,067 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 21:58:44,067 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 21:58:44,067 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 21:58:44,067 - main - INFO - Starting research on query: Machine learning applications in cybersecurity
+2025-08-03 21:58:44,067 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 21:58:44,067 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 21:58:44,067 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:58:55,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:58:55,876 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1855
+2025-08-03 21:58:55,876 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 21:58:55,876 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 21:58:55,876 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 21:58:55,876 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:59:09,437 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:59:09,837 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 2173
+2025-08-03 21:59:09,837 - agent.LiteratureAgent - INFO - Searching for: "machine learning" AND "cybersecurity" AND ("anomaly detection" OR "network security" OR "fraud detection" OR "malware detection" OR "ransomware detection" OR "phishing detection" OR "email filtering" OR "intrusion detection systems" OR "predictive analytics" OR "cybersecurity threats" OR "machine learning algorithms" OR "privacy concerns" OR "ethical considerations" OR "cybersecurity protocols" OR "case studies")
+2025-08-03 21:59:09,837 - utils.scrapers - WARNING - Unknown source: academic sources such as ArXiv and Google Scholar for in-depth research papers and studies on machine learning applications in cybersecurity.
+2025-08-03 21:59:09,837 - utils.scrapers - WARNING - Unknown source: news sources for recent developments, breakthroughs, and real-world applications of machine learning in the cybersecurity field.
+2025-08-03 21:59:09,837 - utils.scrapers - WARNING - Unknown source: industry reports or whitepapers from cybersecurity firms, tech companies, and research organizations for insights into market trends, challenges, and future outlooks.
+2025-08-03 21:59:09,837 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:59:10,340 - agent.LiteratureAgent - INFO - Searching for: "machine learning applications in cybersecurity" AND ("anomaly detection" OR "network security" OR "fraud detection" OR "malware and ransomware detection" OR "phishing detection and email filtering" OR "intrusion detection systems" OR "predictive analytics for cybersecurity threats" OR "privacy and ethics" OR "integration with existing protocols" OR "successful case studies")
+2025-08-03 21:59:10,340 - utils.scrapers - WARNING - Unknown source: academic sources such as ArXiv and Google Scholar for in-depth research papers and studies on machine learning applications in cybersecurity.
+2025-08-03 21:59:10,340 - utils.scrapers - WARNING - Unknown source: news sources for recent developments, breakthroughs, and real-world applications of machine learning in the cybersecurity field.
+2025-08-03 21:59:10,340 - utils.scrapers - WARNING - Unknown source: industry reports or whitepapers from cybersecurity firms, tech companies, and research organizations for insights into market trends, challenges, and future outlooks.
+2025-08-03 21:59:10,340 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:59:10,853 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 21:59:10,853 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 21:59:10,853 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 21:59:10,853 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 21:59:10,853 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 21:59:10,853 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 21:59:10,853 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 21:59:10,860 - main - INFO - Starting research on query: Future of remote work post-pandemic
+2025-08-03 21:59:10,860 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 21:59:10,860 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 21:59:10,865 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:59:19,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:59:19,764 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1378
+2025-08-03 21:59:19,764 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 21:59:19,764 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 21:59:19,772 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 21:59:19,776 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 21:59:31,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 21:59:32,643 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 1797
+2025-08-03 21:59:32,643 - agent.LiteratureAgent - INFO - Searching for: "remote work" AND pandemic AND ("future predictions" OR "technological advancements" OR "workforce culture" OR "workplace culture" OR "industry trends" OR "challenges" OR "solutions" OR "government policies" OR "organizational policies")
+2025-08-03 21:59:32,643 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on remote work trends and technological advancements
+2025-08-03 21:59:32,643 - utils.scrapers - WARNING - Unknown source: News sources for recent developments and expert opinions on the future of remote work
+2025-08-03 21:59:32,643 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for in-depth analysis on remote work statistics, challenges, and future predictions
+2025-08-03 21:59:32,658 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:59:33,166 - agent.LiteratureAgent - INFO - Searching for: "telecommuting" AND "post-pandemic" AND ("impact on" OR "changes in" OR "sustainability of" OR "advancements for") AND ("2020" OR "2021" OR "2022" OR "2023")
+2025-08-03 21:59:33,166 - utils.scrapers - WARNING - Unknown source: Google Scholar for peer-reviewed articles on remote work trends and technological advancements
+2025-08-03 21:59:33,166 - utils.scrapers - WARNING - Unknown source: News sources for recent developments and expert opinions on the future of remote work
+2025-08-03 21:59:33,166 - utils.scrapers - WARNING - Unknown source: Industry reports or whitepapers for in-depth analysis on remote work statistics, challenges, and future predictions
+2025-08-03 21:59:33,166 - utils.scrapers - INFO - Total unique results found: 0
+2025-08-03 21:59:33,681 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 21:59:33,681 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 21:59:33,681 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 21:59:33,681 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 21:59:33,681 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 21:59:33,681 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 21:59:33,681 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 22:08:12,107 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:08:12,107 - main - INFO - Starting research on query: artificial intelligence in healthcare
+2025-08-03 22:08:12,107 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 22:08:12,107 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 22:08:12,107 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:08:21,920 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:08:22,290 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1580
+2025-08-03 22:08:22,290 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 22:08:22,290 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 22:08:22,290 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 22:08:22,290 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:08:38,669 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:08:39,045 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 1938
+2025-08-03 22:08:39,045 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND "current applications" AND "2020..2023"
+2025-08-03 22:08:39,045 - scholarly - INFO - Getting https://scholar.google.com/scholar?hl=en&q=%22artificial%20intelligence%22%20AND%20%22healthcare%22%20AND%20%22current%20applications%22%20AND%20%222020..2023%22&as_vis=0&as_sdt=0,33
+2025-08-03 22:08:42,670 - httpx - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=%22artificial%20intelligence%22%20AND%20%22healthcare%22%20AND%20%22current%20applications%22%20AND%20%222020..2023%22&as_vis=0&as_sdt=0,33 "HTTP/1.1 403 Forbidden"
+2025-08-03 22:08:42,670 - scholarly - INFO - Got an access denied error (403).
+2025-08-03 22:08:42,670 - scholarly - INFO - No other connections possible.
+2025-08-03 22:08:42,670 - scholarly - INFO - Retrying immediately with another session.
+2025-08-03 22:08:44,662 - scholarly - INFO - Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+2025-08-03 22:08:44,662 - scholarly - INFO - Retrying with a new session.
+2025-08-03 22:08:50,420 - httpx - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=%22artificial%20intelligence%22%20AND%20%22healthcare%22%20AND%20%22current%20applications%22%20AND%20%222020..2023%22&as_vis=0&as_sdt=0,33 "HTTP/1.1 403 Forbidden"
+2025-08-03 22:08:50,420 - scholarly - INFO - Got an access denied error (403).
+2025-08-03 22:08:50,420 - scholarly - INFO - No other connections possible.
+2025-08-03 22:08:50,420 - scholarly - INFO - Will retry after 65.42 seconds (with another session).
+2025-08-03 22:09:58,114 - scholarly - INFO - Exception RuntimeError while fetching page: ('Cannot send a request, as the client has been closed.',)
+2025-08-03 22:09:58,114 - scholarly - INFO - Retrying with a new session.
+2025-08-03 22:10:04,906 - httpx - INFO - HTTP Request: GET https://scholar.google.com/scholar?hl=en&q=%22artificial%20intelligence%22%20AND%20%22healthcare%22%20AND%20%22current%20applications%22%20AND%20%222020..2023%22&as_vis=0&as_sdt=0,33 "HTTP/1.1 403 Forbidden"
+2025-08-03 22:10:04,906 - scholarly - INFO - Got an access denied error (403).
+2025-08-03 22:10:04,906 - scholarly - INFO - No other connections possible.
+2025-08-03 22:10:04,906 - scholarly - INFO - Will retry after 119.59 seconds (with another session).
+2025-08-03 22:13:06,532 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:13:06,532 - main - INFO - Starting research on query: artificial intelligence in healthcare
+2025-08-03 22:13:06,532 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 22:13:06,532 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 22:13:06,532 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:13:16,032 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:13:16,325 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1558
+2025-08-03 22:13:16,325 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 22:13:16,325 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 22:13:16,325 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 22:13:16,325 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:13:29,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:13:29,361 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 1759
+2025-08-03 22:13:29,361 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:13:29,361 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22diagnosis%22+OR+%22treatment+recommendations%22+OR+%22patient+monitoring%22+OR+%22drug+discovery%22%29+AND+%222023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:13:33,100 - arxiv - INFO - Got first page: 80 of 80 total results
+2025-08-03 22:13:33,100 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:13:35,153 - utils.scrapers - INFO - Found 1 news articles for query: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:13:36,827 - utils.scrapers - INFO - Found 1 news articles for query: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:13:36,827 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:13:37,333 - agent.LiteratureAgent - INFO - Searching for: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithmic bias") AND "2021-2023"
+2025-08-03 22:13:37,336 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+in+healthcare%22+AND+%28%22ethical+considerations%22+OR+%22data+privacy%22+OR+%22algorithmic+bias%22%29+AND+%222021-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:13:38,403 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:13:38,403 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithmic bias") AND "2021-2023"
+2025-08-03 22:13:39,935 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithmic bias") AND "2021-2023"
+2025-08-03 22:13:41,695 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithmic bias") AND "2021-2023"
+2025-08-03 22:13:41,695 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:13:41,695 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:13:42,201 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND ("impact on healthcare professionals" OR "job displacement" OR "augmentation") AND "2018-2023"
+2025-08-03 22:13:42,201 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22impact+on+healthcare+professionals%22+OR+%22job+displacement%22+OR+%22augmentation%22%29+AND+%222018-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:13:43,747 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:13:43,747 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("impact on healthcare professionals" OR "job displacement" OR "augmentation") AND "2018-2023"
+2025-08-03 22:13:45,804 - utils.scrapers - INFO - Found 0 news articles for query: "artificial intelligence" AND "healthcare" AND ("impact on healthcare professionals" OR "job displacement" OR "augmentation") AND "2018-2023"
+2025-08-03 22:13:47,365 - utils.scrapers - INFO - Found 0 news articles for query: "artificial intelligence" AND "healthcare" AND ("impact on healthcare professionals" OR "job displacement" OR "augmentation") AND "2018-2023"
+2025-08-03 22:13:47,365 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:13:47,365 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:13:47,872 - agent.LiteratureAgent - INFO - Searching for: "future trends" AND "AI in healthcare" AND "2023"
+2025-08-03 22:13:47,872 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22future+trends%22+AND+%22AI+in+healthcare%22+AND+%222023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:13:48,936 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:13:48,936 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "future trends" AND "AI in healthcare" AND "2023"
+2025-08-03 22:13:49,841 - utils.scrapers - INFO - Found 0 news articles for query: "future trends" AND "AI in healthcare" AND "2023"
+2025-08-03 22:13:51,434 - utils.scrapers - INFO - Found 0 news articles for query: "future trends" AND "AI in healthcare" AND "2023"
+2025-08-03 22:13:51,434 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:13:51,434 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:13:51,939 - agent.LiteratureAgent - INFO - Searching for: "challenges of AI in healthcare" AND ("data privacy" OR "algorithmic bias" OR "interoperability") AND "2020-2023"
+2025-08-03 22:13:51,939 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22challenges+of+AI+in+healthcare%22+AND+%28%22data+privacy%22+OR+%22algorithmic+bias%22+OR+%22interoperability%22%29+AND+%222020-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:13:53,185 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:13:53,185 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "challenges of AI in healthcare" AND ("data privacy" OR "algorithmic bias" OR "interoperability") AND "2020-2023"
+2025-08-03 22:13:54,825 - utils.scrapers - INFO - Found 0 news articles for query: "challenges of AI in healthcare" AND ("data privacy" OR "algorithmic bias" OR "interoperability") AND "2020-2023"
+2025-08-03 22:13:56,810 - utils.scrapers - INFO - Found 0 news articles for query: "challenges of AI in healthcare" AND ("data privacy" OR "algorithmic bias" OR "interoperability") AND "2020-2023"
+2025-08-03 22:13:56,810 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:13:56,810 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:13:57,326 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 22:13:57,326 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 22:13:57,326 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 22:13:57,326 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:14:08,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:14:09,186 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2495
+2025-08-03 22:14:09,186 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:14:21,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:14:21,789 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2466
+2025-08-03 22:14:21,789 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:14:35,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:14:35,588 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2413
+2025-08-03 22:14:35,588 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:14:48,417 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:14:48,620 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2733
+2025-08-03 22:14:48,620 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:14:59,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:14:59,837 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2541
+2025-08-03 22:14:59,837 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:15:12,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:15:12,654 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2559
+2025-08-03 22:15:12,654 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 22:15:12,654 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 22:15:12,654 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 22:15:12,654 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 22:16:34,423 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:16:34,423 - main - INFO - Starting research on query: artificial intelligence in healthcare
+2025-08-03 22:16:34,423 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 22:16:34,423 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 22:16:34,423 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:16:44,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:16:44,907 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1675
+2025-08-03 22:16:44,907 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 22:16:44,907 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 22:16:44,907 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 22:16:44,907 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:16:58,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:16:58,471 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 2060
+2025-08-03 22:16:58,471 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:16:58,471 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22diagnosis%22+OR+%22treatment+recommendations%22+OR+%22patient+monitoring%22+OR+%22drug+discovery%22%29+AND+%222023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:17:01,392 - arxiv - INFO - Got first page: 80 of 80 total results
+2025-08-03 22:17:01,392 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:17:04,283 - utils.scrapers - INFO - Found 1 news articles for query: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:17:06,816 - utils.scrapers - INFO - Found 1 news articles for query: "artificial intelligence" AND "healthcare" AND ("diagnosis" OR "treatment recommendations" OR "patient monitoring" OR "drug discovery") AND "2023"
+2025-08-03 22:17:06,816 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:17:07,331 - agent.LiteratureAgent - INFO - Searching for: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithm bias" OR "decision-making transparency") AND "2022-2023"
+2025-08-03 22:17:07,331 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+in+healthcare%22+AND+%28%22ethical+considerations%22+OR+%22data+privacy%22+OR+%22algorithm+bias%22+OR+%22decision-making+transparency%22%29+AND+%222022-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:17:09,709 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:17:09,709 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithm bias" OR "decision-making transparency") AND "2022-2023"
+2025-08-03 22:17:11,847 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithm bias" OR "decision-making transparency") AND "2022-2023"
+2025-08-03 22:17:14,647 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND ("ethical considerations" OR "data privacy" OR "algorithm bias" OR "decision-making transparency") AND "2022-2023"
+2025-08-03 22:17:14,647 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:17:14,647 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:17:15,157 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND ("FDA approvals" OR "EU regulations" OR "global standards") AND "2021-2023"
+2025-08-03 22:17:15,157 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22FDA+approvals%22+OR+%22EU+regulations%22+OR+%22global+standards%22%29+AND+%222021-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:17:17,659 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:17:17,659 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("FDA approvals" OR "EU regulations" OR "global standards") AND "2021-2023"
+2025-08-03 22:17:20,722 - utils.scrapers - INFO - Found 0 news articles for query: "artificial intelligence" AND "healthcare" AND ("FDA approvals" OR "EU regulations" OR "global standards") AND "2021-2023"
+2025-08-03 22:17:23,097 - utils.scrapers - INFO - Found 0 news articles for query: "artificial intelligence" AND "healthcare" AND ("FDA approvals" OR "EU regulations" OR "global standards") AND "2021-2023"
+2025-08-03 22:17:23,097 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:17:23,097 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:17:23,613 - agent.LiteratureAgent - INFO - Searching for: "AI impact on healthcare professionals" AND ("job displacement" OR "new skill requirements" OR "decision support") AND "2020-2023"
+2025-08-03 22:17:23,613 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+impact+on+healthcare+professionals%22+AND+%28%22job+displacement%22+OR+%22new+skill+requirements%22+OR+%22decision+support%22%29+AND+%222020-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:17:25,629 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:17:25,644 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI impact on healthcare professionals" AND ("job displacement" OR "new skill requirements" OR "decision support") AND "2020-2023"
+2025-08-03 22:17:28,035 - utils.scrapers - INFO - Found 0 news articles for query: "AI impact on healthcare professionals" AND ("job displacement" OR "new skill requirements" OR "decision support") AND "2020-2023"
+2025-08-03 22:17:29,957 - utils.scrapers - INFO - Found 0 news articles for query: "AI impact on healthcare professionals" AND ("job displacement" OR "new skill requirements" OR "decision support") AND "2020-2023"
+2025-08-03 22:17:29,957 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:17:29,957 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:17:30,459 - agent.LiteratureAgent - INFO - Searching for: "future trends in AI healthcare technology" AND ("predictive analytics" OR "personalized medicine" OR "telehealth integration") AND "2018-2023"
+2025-08-03 22:17:30,459 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22future+trends+in+AI+healthcare+technology%22+AND+%28%22predictive+analytics%22+OR+%22personalized+medicine%22+OR+%22telehealth+integration%22%29+AND+%222018-2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:17:32,832 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:17:32,832 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "future trends in AI healthcare technology" AND ("predictive analytics" OR "personalized medicine" OR "telehealth integration") AND "2018-2023"
+2025-08-03 22:17:34,491 - utils.scrapers - INFO - Found 0 news articles for query: "future trends in AI healthcare technology" AND ("predictive analytics" OR "personalized medicine" OR "telehealth integration") AND "2018-2023"
+2025-08-03 22:17:36,895 - utils.scrapers - INFO - Found 0 news articles for query: "future trends in AI healthcare technology" AND ("predictive analytics" OR "personalized medicine" OR "telehealth integration") AND "2018-2023"
+2025-08-03 22:17:36,895 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:17:36,895 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:17:37,396 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 22:17:37,396 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 22:17:37,396 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 22:17:37,396 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:17:50,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:17:50,393 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2353
+2025-08-03 22:17:50,393 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:18:04,526 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:18:04,853 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2453
+2025-08-03 22:18:04,853 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:18:16,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:18:16,287 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2357
+2025-08-03 22:18:16,287 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:18:28,913 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:18:29,237 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2494
+2025-08-03 22:18:29,237 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:18:38,373 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:18:38,737 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2225
+2025-08-03 22:18:38,763 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:18:48,978 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:18:49,326 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2420
+2025-08-03 22:18:49,326 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 22:18:49,326 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 22:18:49,326 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 22:18:49,326 - agent.ComparisonAgent - ERROR - Error in ComparisonAgent processing: 'source_summaries'
+2025-08-03 22:20:25,641 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:20:25,642 - main - INFO - Starting research on query: artificial intelligence in healthcare
+2025-08-03 22:20:25,642 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 22:20:25,645 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 22:20:25,645 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:20:36,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:20:37,048 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1590
+2025-08-03 22:20:37,048 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 22:20:37,048 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 22:20:37,048 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 22:20:37,048 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:20:48,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:20:48,254 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 1968
+2025-08-03 22:20:48,254 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND ("current applications" OR "AI diagnostics" OR "treatment personalization") AND "2020..2023"
+2025-08-03 22:20:48,254 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22current+applications%22+OR+%22AI+diagnostics%22+OR+%22treatment+personalization%22%29+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:20:50,621 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:20:50,621 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("current applications" OR "AI diagnostics" OR "treatment personalization") AND "2020..2023"
+2025-08-03 22:20:50,621 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22current+applications%22+OR+%22AI+diagnostics%22+OR+%22treatment+personalization%22%29+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:20:51,678 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:20:51,678 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("current applications" OR "AI diagnostics" OR "treatment personalization") AND "2020..2023"
+2025-08-03 22:20:53,800 - utils.scrapers - INFO - Found 0 news articles for query: "artificial intelligence" AND "healthcare" AND ("current applications" OR "AI diagnostics" OR "treatment personalization") AND "2020..2023"
+2025-08-03 22:20:55,405 - utils.scrapers - INFO - Found 0 news articles for query: "artificial intelligence" AND "healthcare" AND ("current applications" OR "AI diagnostics" OR "treatment personalization") AND "2020..2023"
+2025-08-03 22:20:55,405 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:20:55,405 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:20:55,910 - agent.LiteratureAgent - INFO - Searching for: "artificial intelligence" AND "healthcare" AND ("ethical considerations" OR "healthcare outcomes" OR "challenges" OR "future trends") AND "2020..2023"
+2025-08-03 22:20:55,910 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22ethical+considerations%22+OR+%22healthcare+outcomes%22+OR+%22challenges%22+OR+%22future+trends%22%29+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:20:57,260 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:20:57,265 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("ethical considerations" OR "healthcare outcomes" OR "challenges" OR "future trends") AND "2020..2023"
+2025-08-03 22:20:57,266 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22artificial+intelligence%22+AND+%22healthcare%22+AND+%28%22ethical+considerations%22+OR+%22healthcare+outcomes%22+OR+%22challenges%22+OR+%22future+trends%22%29+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:20:58,137 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:20:58,137 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "artificial intelligence" AND "healthcare" AND ("ethical considerations" OR "healthcare outcomes" OR "challenges" OR "future trends") AND "2020..2023"
+2025-08-03 22:20:59,845 - utils.scrapers - INFO - Found 1 news articles for query: "artificial intelligence" AND "healthcare" AND ("ethical considerations" OR "healthcare outcomes" OR "challenges" OR "future trends") AND "2020..2023"
+2025-08-03 22:21:01,457 - utils.scrapers - INFO - Found 1 news articles for query: "artificial intelligence" AND "healthcare" AND ("ethical considerations" OR "healthcare outcomes" OR "challenges" OR "future trends") AND "2020..2023"
+2025-08-03 22:21:01,457 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:21:01,976 - agent.LiteratureAgent - INFO - Searching for: "machine learning" AND "clinical decision support" AND "healthcare" AND "2020..2023"
+2025-08-03 22:21:01,976 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22machine+learning%22+AND+%22clinical+decision+support%22+AND+%22healthcare%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:04,085 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:04,085 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "machine learning" AND "clinical decision support" AND "healthcare" AND "2020..2023"
+2025-08-03 22:21:04,085 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22machine+learning%22+AND+%22clinical+decision+support%22+AND+%22healthcare%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:05,244 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:05,244 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "machine learning" AND "clinical decision support" AND "healthcare" AND "2020..2023"
+2025-08-03 22:21:06,518 - utils.scrapers - INFO - Found 0 news articles for query: "machine learning" AND "clinical decision support" AND "healthcare" AND "2020..2023"
+2025-08-03 22:21:08,404 - utils.scrapers - INFO - Found 0 news articles for query: "machine learning" AND "clinical decision support" AND "healthcare" AND "2020..2023"
+2025-08-03 22:21:08,404 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:21:08,413 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:21:08,926 - agent.LiteratureAgent - INFO - Searching for: "AI in healthcare" AND "impact on outcomes" AND "2020..2023"
+2025-08-03 22:21:08,926 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+in+healthcare%22+AND+%22impact+on+outcomes%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:10,096 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:10,096 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI in healthcare" AND "impact on outcomes" AND "2020..2023"
+2025-08-03 22:21:10,111 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+in+healthcare%22+AND+%22impact+on+outcomes%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:11,159 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:11,159 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI in healthcare" AND "impact on outcomes" AND "2020..2023"
+2025-08-03 22:21:13,043 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND "impact on outcomes" AND "2020..2023"
+2025-08-03 22:21:14,885 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND "impact on outcomes" AND "2020..2023"
+2025-08-03 22:21:14,885 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:21:14,885 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:21:15,395 - agent.LiteratureAgent - INFO - Searching for: "AI in healthcare" AND "ethical considerations" AND "2020..2023"
+2025-08-03 22:21:15,395 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+in+healthcare%22+AND+%22ethical+considerations%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:17,347 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:17,347 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI in healthcare" AND "ethical considerations" AND "2020..2023"
+2025-08-03 22:21:17,347 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22AI+in+healthcare%22+AND+%22ethical+considerations%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:18,390 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:18,390 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "AI in healthcare" AND "ethical considerations" AND "2020..2023"
+2025-08-03 22:21:20,416 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND "ethical considerations" AND "2020..2023"
+2025-08-03 22:21:22,424 - utils.scrapers - INFO - Found 0 news articles for query: "AI in healthcare" AND "ethical considerations" AND "2020..2023"
+2025-08-03 22:21:22,424 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:21:22,424 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:21:22,936 - agent.LiteratureAgent - INFO - Searching for: "future trends of AI in healthcare" AND "2020..2023"
+2025-08-03 22:21:22,936 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22future+trends+of+AI+in+healthcare%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:24,887 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:24,887 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "future trends of AI in healthcare" AND "2020..2023"
+2025-08-03 22:21:24,887 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22future+trends+of+AI+in+healthcare%22+AND+%222020..2023%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:21:25,944 - arxiv - INFO - Got empty first page; stopping generation
+2025-08-03 22:21:25,944 - utils.scrapers - INFO - Found 0 papers from ArXiv for query: "future trends of AI in healthcare" AND "2020..2023"
+2025-08-03 22:21:27,934 - utils.scrapers - INFO - Found 0 news articles for query: "future trends of AI in healthcare" AND "2020..2023"
+2025-08-03 22:21:30,067 - utils.scrapers - INFO - Found 0 news articles for query: "future trends of AI in healthcare" AND "2020..2023"
+2025-08-03 22:21:30,067 - utils.scrapers - INFO - No sources found, providing mock data for demonstration
+2025-08-03 22:21:30,067 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:21:30,579 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 22:21:30,579 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 22:21:30,579 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 22:21:30,579 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:21:43,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:21:43,676 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2508
+2025-08-03 22:21:43,692 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:21:46,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:21:47,008 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 410
+2025-08-03 22:21:47,008 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:22:00,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:22:00,830 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2213
+2025-08-03 22:22:00,830 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:22:13,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:22:13,401 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2063
+2025-08-03 22:22:13,401 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:22:25,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:22:25,846 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2589
+2025-08-03 22:22:25,846 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:22:34,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:22:34,580 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 1598
+2025-08-03 22:22:34,580 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 22:22:34,580 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 22:22:34,580 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 22:22:34,580 - agent.ComparisonAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:22:49,412 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:22:49,580 - agent.ComparisonAgent - INFO - OpenAI API call successful, response length: 2706
+2025-08-03 22:22:49,580 - agent.ComparisonAgent - INFO - Completed ComparisonAgent processing
+2025-08-03 22:22:49,580 - main - INFO - Step 5: Generating final report...
+2025-08-03 22:22:49,580 - agent.ReportWriterAgent - INFO - Starting ReportWriterAgent processing
+2025-08-03 22:22:49,580 - agent.ReportWriterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:23:18,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:23:18,891 - agent.ReportWriterAgent - INFO - OpenAI API call successful, response length: 5627
+2025-08-03 22:23:18,891 - agent.ReportWriterAgent - INFO - Completed ReportWriterAgent processing
+2025-08-03 22:23:18,891 - main - INFO - Research completed successfully in 173.25 seconds
+2025-08-03 22:24:06,417 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:24:16,112 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:24:16,289 - watchfiles.main - INFO - 5 changes detected
+2025-08-03 22:24:16,723 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:17,107 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:17,491 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:17,944 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:18,334 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:18,797 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:19,195 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:19,682 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:20,094 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:24:56,512 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:56,910 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:57,279 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:57,649 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:58,046 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:58,412 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:58,796 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:59,179 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:59,562 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:24:59,946 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:00,329 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:00,729 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:01,112 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:01,496 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:01,896 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:02,280 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:02,662 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:03,063 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:03,462 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:03,847 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:04,229 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:04,646 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:05,046 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:05,429 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:05,805 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:06,179 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:06,380 - main - INFO - Starting research on query: What is OpenAI Agents SDK
+2025-08-03 22:25:06,380 - main - INFO - Step 1: Routing and planning research...
+2025-08-03 22:25:06,396 - agent.RouterAgent - INFO - Starting RouterAgent processing
+2025-08-03 22:25:06,396 - agent.RouterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:25:06,563 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:06,946 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:07,331 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:07,728 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:08,097 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:08,480 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:08,871 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:09,296 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:09,681 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:10,063 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:10,463 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:10,831 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:11,230 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:11,630 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:12,032 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:12,414 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:12,797 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:13,180 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:13,563 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:13,931 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:14,314 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:14,715 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:15,098 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:15,480 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:15,864 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:16,264 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:16,663 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:17,047 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:17,430 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:17,830 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:18,218 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:18,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:25:18,531 - agent.RouterAgent - INFO - OpenAI API call successful, response length: 1477
+2025-08-03 22:25:18,531 - agent.RouterAgent - INFO - Completed RouterAgent processing
+2025-08-03 22:25:18,531 - main - INFO - Step 2: Collecting literature sources...
+2025-08-03 22:25:18,531 - agent.LiteratureAgent - INFO - Starting LiteratureAgent processing
+2025-08-03 22:25:18,531 - agent.LiteratureAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:25:18,598 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:18,989 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:19,364 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:19,742 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:20,130 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:20,514 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:20,914 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:21,281 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:21,698 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:22,081 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:22,464 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:22,847 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:23,231 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:23,631 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:24,015 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:24,397 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:24,797 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:25,181 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:25,561 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:25,948 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:26,324 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:26,714 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:27,097 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:27,464 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:27,864 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:28,264 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:28,648 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:29,048 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:29,431 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:29,831 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:30,216 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:30,582 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:30,948 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:31,348 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:31,748 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:32,132 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:32,515 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:32,935 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:33,332 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:33,715 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:34,098 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:34,514 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:34,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:25:34,899 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:34,983 - agent.LiteratureAgent - INFO - OpenAI API call successful, response length: 2734
+2025-08-03 22:25:34,983 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" overview
+2025-08-03 22:25:34,983 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+overview&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:25:35,331 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:35,765 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:36,165 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:36,565 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:36,948 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:37,333 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:37,715 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:38,108 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:38,135 - arxiv - INFO - Got first page: 100 of 25202 total results
+2025-08-03 22:25:38,135 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" overview
+2025-08-03 22:25:38,492 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:38,874 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:39,261 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:39,637 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:40,023 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:40,398 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:40,398 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI Agents SDK" overview
+2025-08-03 22:25:40,398 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:25:40,398 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:25:40,781 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:40,914 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" features
+2025-08-03 22:25:40,914 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+features&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:25:41,163 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:41,539 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:41,898 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:42,278 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:42,662 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:43,039 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:43,217 - arxiv - INFO - Got first page: 100 of 237009 total results
+2025-08-03 22:25:43,217 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" features
+2025-08-03 22:25:43,407 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:43,783 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:44,172 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:44,551 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:44,930 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:45,008 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI Agents SDK" features
+2025-08-03 22:25:45,008 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:25:45,008 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:25:45,318 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:45,532 - agent.LiteratureAgent - INFO - Searching for: "OpenAI SDK" use cases
+2025-08-03 22:25:45,532 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+SDK%22+use+cases&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:25:45,712 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:46,090 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:46,474 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:46,945 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:47,426 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:47,691 - arxiv - INFO - Got first page: 25 of 1506769 total results
+2025-08-03 22:25:47,691 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI SDK" use cases
+2025-08-03 22:25:47,800 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:48,174 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:48,561 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:48,949 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:49,333 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:49,483 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI SDK" use cases
+2025-08-03 22:25:49,483 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:25:49,483 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:25:49,733 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:49,982 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" vs "AI SDK"
+2025-08-03 22:25:49,983 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+vs+%22AI+SDK%22&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:25:50,100 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:50,482 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:50,883 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:51,299 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:51,683 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:52,066 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:52,400 - arxiv - INFO - Got first page: 100 of 16902 total results
+2025-08-03 22:25:52,400 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" vs "AI SDK"
+2025-08-03 22:25:52,462 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:52,817 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:53,217 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:53,600 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:54,000 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:54,383 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:54,534 - utils.scrapers - INFO - Found 0 news articles for query: "OpenAI Agents SDK" vs "AI SDK"
+2025-08-03 22:25:54,534 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:25:54,534 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:25:54,750 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:55,033 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" integration
+2025-08-03 22:25:55,034 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+integration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:25:55,134 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:55,533 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:55,916 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:56,316 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:56,708 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:57,066 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:57,184 - arxiv - INFO - Got first page: 100 of 237835 total results
+2025-08-03 22:25:57,184 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" integration
+2025-08-03 22:25:57,450 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:57,850 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:58,250 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:58,633 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:59,018 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:59,067 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI Agents SDK" integration
+2025-08-03 22:25:59,067 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:25:59,067 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:25:59,416 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:25:59,566 - agent.LiteratureAgent - INFO - Searching for: "OpenAI SDK" future developments
+2025-08-03 22:25:59,567 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+SDK%22+future+developments&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:25:59,800 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:00,191 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:00,567 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:00,967 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:01,348 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:01,717 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:02,100 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:02,468 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:03,001 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:03,087 - arxiv - INFO - Got first page: 100 of 435305 total results
+2025-08-03 22:26:03,118 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI SDK" future developments
+2025-08-03 22:26:03,500 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:03,897 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:04,284 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:04,667 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:05,067 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:05,158 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI SDK" future developments
+2025-08-03 22:26:05,158 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:26:05,158 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:26:05,450 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:05,663 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" capabilities
+2025-08-03 22:26:05,663 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+capabilities&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:26:05,831 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:06,217 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:06,586 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:06,984 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:07,367 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:07,767 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:08,150 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:08,268 - arxiv - INFO - Got first page: 100 of 105918 total results
+2025-08-03 22:26:08,285 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" capabilities
+2025-08-03 22:26:08,534 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:08,917 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:09,251 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI Agents SDK" capabilities
+2025-08-03 22:26:09,251 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:26:09,251 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:26:09,301 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:09,684 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:09,760 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" applications
+2025-08-03 22:26:09,760 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+applications&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:26:10,067 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:10,451 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:10,830 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:11,214 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:11,600 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:11,854 - arxiv - INFO - Got first page: 100 of 410273 total results
+2025-08-03 22:26:11,854 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" applications
+2025-08-03 22:26:11,977 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:12,357 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:12,730 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:13,108 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:13,791 - utils.scrapers - INFO - Found 1 news articles for query: "OpenAI Agents SDK" applications
+2025-08-03 22:26:14,604 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:26:14,604 - utils.scrapers - INFO - Total unique results found: 2
+2025-08-03 22:26:14,724 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:15,105 - watchfiles.main - INFO - 1 change detected
+: "OpenAI SDK" comparison
+2025-08-03 22:26:15,105 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+SDK%22+comparison&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:26:15,477 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:15,862 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:16,248 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:16,636 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:17,026 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:17,376 - arxiv - INFO - Got first page: 100 of 98994 total results
+2025-08-03 22:26:17,385 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI SDK" comparison
+2025-08-03 22:26:17,401 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:17,781 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:18,173 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:18,551 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:18,646 - utils.scrapers - INFO - Found 0 news articles for query: "OpenAI SDK" comparison
+2025-08-03 22:26:18,646 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:26:18,646 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:26:18,916 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:19,158 - agent.LiteratureAgent - INFO - Searching for: "OpenAI Agents SDK" implementation details
+2025-08-03 22:26:19,159 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%22OpenAI+Agents+SDK%22+implementation+details&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-08-03 22:26:19,292 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:19,666 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:20,043 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:20,426 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:20,878 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:21,264 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:21,507 - arxiv - INFO - Got first page: 100 of 288279 total results
+2025-08-03 22:26:21,507 - utils.scrapers - INFO - Found 1 papers from ArXiv for query: "OpenAI Agents SDK" implementation details
+2025-08-03 22:26:21,650 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:22,032 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:22,411 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:22,788 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:23,170 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:23,315 - utils.scrapers - INFO - Found 0 news articles for query: "OpenAI Agents SDK" implementation details
+2025-08-03 22:26:23,315 - utils.scrapers - WARNING - Scholarly search temporarily disabled due to access restrictions
+2025-08-03 22:26:23,315 - utils.scrapers - INFO - Total unique results found: 1
+2025-08-03 22:26:23,549 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:23,808 - agent.LiteratureAgent - INFO - Completed LiteratureAgent processing
+2025-08-03 22:26:23,808 - main - INFO - Step 3: Summarizing sources...
+2025-08-03 22:26:23,808 - agent.SummaryAgent - INFO - Starting SummaryAgent processing
+2025-08-03 22:26:23,808 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:26:23,927 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:24,315 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:24,703 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:25,079 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:25,451 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:25,827 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:26,218 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:26,602 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:27,002 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:27,401 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:27,785 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:28,185 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:28,565 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:28,937 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:29,318 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:29,702 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:30,085 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:30,468 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:30,852 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:31,253 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:31,636 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:32,035 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:32,419 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:32,802 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:33,202 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:33,586 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:33,969 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:34,369 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:34,753 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:35,128 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:35,495 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:35,886 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:36,286 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:36,686 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:37,086 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:37,469 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:37,869 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:38,252 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:38,637 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:38,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:26:38,986 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2824
+2025-08-03 22:26:39,002 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:26:39,036 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:39,402 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:39,787 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:40,186 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:40,570 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:40,969 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:41,354 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:41,753 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:42,153 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:42,529 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:42,908 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:43,286 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:43,670 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:44,069 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:44,440 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:44,837 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:45,203 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:45,578 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:45,953 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:46,337 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:46,736 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:47,136 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:47,522 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:47,904 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:48,263 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:48,645 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:49,013 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:49,386 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:49,771 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:50,170 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:50,553 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:50,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:26:50,619 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2507
+2025-08-03 22:26:50,619 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:26:50,954 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:51,337 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:51,771 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:52,186 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:52,587 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:52,988 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:53,387 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:53,770 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:54,154 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:54,538 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:54,904 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:55,272 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:55,798 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:56,186 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:56,574 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:56,947 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:57,456 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:57,836 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:58,217 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:26:58,594 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:27:04,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:27:04,072 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2528
+2025-08-03 22:27:04,072 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:27:15,775 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:27:15,989 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2393
+2025-08-03 22:27:15,989 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:27:29,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:27:29,874 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2957
+2025-08-03 22:27:29,874 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:27:40,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:27:40,550 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 1996
+2025-08-03 22:27:40,550 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:27:56,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:27:56,398 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2714
+2025-08-03 22:27:56,399 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:28:11,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:28:11,410 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2562
+2025-08-03 22:28:11,410 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:28:23,045 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:28:23,302 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2086
+2025-08-03 22:28:23,302 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:28:27,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:28:27,829 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 720
+2025-08-03 22:28:27,829 - agent.SummaryAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:28:37,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:28:37,957 - agent.SummaryAgent - INFO - OpenAI API call successful, response length: 2315
+2025-08-03 22:28:37,957 - agent.SummaryAgent - INFO - Completed SummaryAgent processing
+2025-08-03 22:28:37,957 - main - INFO - Step 4: Comparing viewpoints...
+2025-08-03 22:28:37,957 - agent.ComparisonAgent - INFO - Starting ComparisonAgent processing
+2025-08-03 22:28:37,957 - agent.ComparisonAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:28:41,717 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:28:53,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:28:53,687 - agent.ComparisonAgent - INFO - OpenAI API call successful, response length: 2112
+2025-08-03 22:28:53,687 - agent.ComparisonAgent - INFO - Completed ComparisonAgent processing
+2025-08-03 22:28:53,687 - main - INFO - Step 5: Generating final report...
+2025-08-03 22:28:53,687 - agent.ReportWriterAgent - INFO - Starting ReportWriterAgent processing
+2025-08-03 22:28:53,687 - agent.ReportWriterAgent - INFO - Making OpenAI API call with model: gpt-4-turbo-preview
+2025-08-03 22:29:06,376 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:06,788 - watchfiles.main - INFO - 6 changes detected
+2025-08-03 22:29:07,266 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:07,722 - watchfiles.main - INFO - 6 changes detected
+2025-08-03 22:29:08,155 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:08,531 - watchfiles.main - INFO - 6 changes detected
+2025-08-03 22:29:08,963 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:09,413 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:09,780 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:10,255 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:10,627 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:11,055 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:11,480 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:11,893 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:12,339 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:12,757 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:13,241 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:13,631 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:14,055 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:14,464 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:14,831 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:15,274 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:15,723 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:16,092 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:16,593 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:17,041 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:17,422 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:17,810 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:18,200 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:18,644 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:19,027 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:19,415 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:19,791 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:21,125 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:21,497 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:21,897 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:22,280 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:22,680 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:23,130 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:23,217 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-03 22:29:23,514 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:23,515 - agent.ReportWriterAgent - INFO - OpenAI API call successful, response length: 5764
+2025-08-03 22:29:23,515 - agent.ReportWriterAgent - INFO - Completed ReportWriterAgent processing
+2025-08-03 22:29:23,515 - main - INFO - Research completed successfully in 257.13 seconds
+2025-08-03 22:29:23,897 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:24,330 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:24,742 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:25,107 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:25,475 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:25,841 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:26,216 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:26,581 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:26,981 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:27,439 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:28,023 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:28,398 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:28,781 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:29,214 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:29,614 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:30,014 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:30,414 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:30,798 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:31,198 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:31,574 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:32,016 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:32,398 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:32,832 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:33,216 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:33,659 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:34,032 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:34,400 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:34,775 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:35,167 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:35,533 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:35,894 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:36,308 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:36,683 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:37,116 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:37,649 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:38,032 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:38,481 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:38,873 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:39,249 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:39,700 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:40,132 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:40,566 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:40,941 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:41,358 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:41,799 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:42,248 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:42,648 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:43,082 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:43,465 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:43,934 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:44,332 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:44,733 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:45,182 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:45,565 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:45,949 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:46,399 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:46,799 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:47,181 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:47,626 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:47,992 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:48,372 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:48,813 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:49,203 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:49,626 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:29:50,016 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:18,737 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:38:26,560 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:38:26,701 - watchfiles.main - INFO - 5 changes detected
+2025-08-03 22:38:27,135 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:27,582 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:27,970 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:28,368 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:28,818 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:29,202 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:29,594 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:29,645 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:38:30,019 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:30,452 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:30,829 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:31,253 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:31,635 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:32,101 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:32,502 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:32,885 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:33,277 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:33,718 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:34,102 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:34,552 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:34,952 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:35,319 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:35,752 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:36,185 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:36,568 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:37,028 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:37,421 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:37,803 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:38,249 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:38,611 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:39,061 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:39,452 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:39,835 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:40,253 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:40,694 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:41,071 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:41,452 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:41,919 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:42,302 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:42,683 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:43,136 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:43,502 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:43,936 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:44,336 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:44,803 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:45,170 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:45,619 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:46,152 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:46,536 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:46,988 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:47,353 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:47,764 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:48,136 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:48,536 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:48,936 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:49,333 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:49,786 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:50,153 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:50,653 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:51,044 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:51,478 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:51,869 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:52,321 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:52,720 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:53,120 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:53,619 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:54,020 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:54,420 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:54,803 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:55,270 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:55,703 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:56,153 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:56,537 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:56,970 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:57,420 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:57,804 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:38:58,201 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:01,249 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:44:12,060 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:44:12,413 - watchfiles.main - INFO - 6 changes detected
+2025-08-03 22:44:12,793 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:13,177 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:13,557 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:13,927 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:14,295 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:14,676 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:15,051 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:15,419 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:15,860 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:16,260 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:16,419 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:44:16,691 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:17,077 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:17,477 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:17,943 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:18,344 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:18,743 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:19,119 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:19,550 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:19,990 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:20,427 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:20,793 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:21,219 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:21,636 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:22,054 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:22,432 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:22,876 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:23,288 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:23,663 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:24,095 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:24,477 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:24,896 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:25,294 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:25,743 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:26,108 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:26,536 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:26,995 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:27,370 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:27,794 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:28,219 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:28,638 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:29,090 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:29,481 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:29,878 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:30,277 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:30,668 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:31,111 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:31,496 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:31,933 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:32,328 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:32,714 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:33,178 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:33,612 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:33,998 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:34,461 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:34,861 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:35,261 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:35,728 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:36,128 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:36,520 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:36,919 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:37,362 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:37,748 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:38,113 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:38,554 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:38,945 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:39,378 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:39,762 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:40,228 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:40,629 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:41,029 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:41,496 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:41,895 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:42,294 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:42,695 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:43,145 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:43,546 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:43,945 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:44,412 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:44,812 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:45,211 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:45,612 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:46,012 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:46,451 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:46,850 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:47,596 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:48,048 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:48,445 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:48,840 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:49,279 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:49,678 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:50,079 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:50,689 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:51,079 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:51,478 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:52,112 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:52,510 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:52,899 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:53,296 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:53,727 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:54,130 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:44:54,596 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:42,499 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:45:50,599 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:45:50,764 - watchfiles.main - INFO - 6 changes detected
+2025-08-03 22:45:51,214 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:51,614 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:52,065 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:52,431 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:52,832 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:53,216 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:53,516 - main - INFO - Research Analyst initialized with all agents
+2025-08-03 22:45:53,641 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:54,024 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:54,473 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:54,849 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:55,216 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:55,674 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:56,048 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:56,418 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:56,865 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:57,266 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:57,649 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:58,051 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:58,428 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:58,850 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:59,299 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:45:59,691 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:00,058 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:00,498 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:00,882 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:01,332 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:01,732 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:02,117 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:02,566 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:02,950 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:03,349 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:03,815 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:04,199 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:04,575 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:05,000 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:05,449 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:05,850 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:06,216 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:06,599 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:06,984 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:07,449 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:07,849 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:08,248 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:08,667 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:09,116 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:09,499 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:09,900 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:10,268 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:10,683 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:11,076 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:11,500 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:11,936 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:12,325 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:12,717 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:13,183 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:13,583 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:13,966 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:14,416 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:14,800 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:15,233 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:15,666 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:16,067 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:16,533 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:16,933 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:17,332 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:17,733 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:18,135 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:18,517 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:18,983 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:19,349 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:19,783 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:20,179 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:20,600 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:21,000 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:21,450 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:21,833 - watchfiles.main - INFO - 1 change detected
+2025-08-03 22:46:22,284 - watchfiles.main - INFO - 1 change detected
