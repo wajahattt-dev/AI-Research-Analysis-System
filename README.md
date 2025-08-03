@@ -1,4 +1,5 @@
-# 🔬 AI Research Analysis System
+# 🔬 AI Research Analysis System By Wajahat
+<img width="864" height="607" alt="image" src="https://github.com/user-attachments/assets/a4f9b152-e0ac-4d10-aaad-085a7964c4c5" />
 
 A comprehensive, AI-powered research analysis system that transforms research queries into detailed, professional reports using OpenAI's GPT-4 and multiple data sources.
 
@@ -270,4 +271,4 @@ For support and questions:
 
 ---
 
-**Made with ❤️ for the research community** 
+**Made with ❤️ for the research community by Wajahat Hussain** 
